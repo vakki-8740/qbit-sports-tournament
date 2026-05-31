@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "public/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/public/user/index.html" },
+    { "src": "/admin(/.*)?", "dest": "/public/admin/index.html" },
+    { "src": "/site(/.*)?", "dest": "/public/site/index.html" },
+    { "src": "/(.*)", "dest": "/public/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-cache, no-store, must-revalidate" }
+      ]
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "directoryListing": false
+}
