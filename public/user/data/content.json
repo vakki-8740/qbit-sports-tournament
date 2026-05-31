@@ -1,0 +1,68 @@
+{
+  "appName": "QBIT SPORTS",
+  "tagline": "Play with Skill. Win Big.",
+  "logoText": "QS",
+  "pages": {
+    "home": {
+      "title": "Home",
+      "heading": "Welcome to QBIT SPORTS",
+      "subheading": "Join tournaments, win prizes, become a champion!",
+      "heroImage": "",
+      "ctaButtonText": "Join Now",
+      "ctaButtonLink": "#matches"
+    },
+    "matches": {
+      "title": "My Matches",
+      "heading": "Your Tournaments",
+      "subheading": "Track your joined and completed matches",
+      "emptyJoined": "No joined matches yet",
+      "emptyCompleted": "No completed matches"
+    },
+    "rank": {
+      "title": "Leaderboard",
+      "heading": "Tournament Results",
+      "subheading": "See who dominated the arena",
+      "emptyState": "No results yet"
+    },
+    "wallet": {
+      "title": "My Wallet",
+      "heading": "Your Balance",
+      "subheading": "Deposit, withdraw and track your earnings",
+      "minDeposit": "10",
+      "minWithdraw": "100",
+      "depositButton": "Deposit Money",
+      "withdrawButton": "Withdraw Money"
+    },
+    "profile": {
+      "title": "My Profile",
+      "heading": "Your Profile",
+      "subheading": "Manage your account details",
+      "editButton": "Edit Profile"
+    },
+    "settings": {
+      "title": "Settings",
+      "heading": "App Settings",
+      "subheading": "Customize your experience",
+      "darkMode": "Dark Mode",
+      "clearCache": "Clear Cache",
+      "shareApp": "Share App",
+      "rateUs": "Rate Us",
+      "about": "About QBIT SPORTS",
+      "privacy": "Privacy Policy",
+      "help": "Help & Support",
+      "telegram": "Telegram Channel",
+      "logout": "Logout"
+    }
+  },
+  "footer": {
+    "copyright": "QBIT SPORTS. All rights reserved.",
+    "version": "v1.0"
+  },
+  "ui": {
+    "primaryColor": "#007aff",
+    "successColor": "#34c759",
+    "dangerColor": "#ff3b30",
+    "warningColor": "#ff9500",
+    "maxWidth": "480px"
+  }
+}
